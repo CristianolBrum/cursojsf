@@ -3,19 +3,18 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
+>
 <h:head>
     <h:body>
         <h:form>
-            <h:outputText value="#{testeSessionBean.personagemSelecionado}"/><br/>
-            <h:commandButton actionListener="#{testeSessionBean.selecionarPersonagem}"
+            <h:outputText value="#{testeViewBean.personagemSelecionado}"/><br/>
+            <h:commandButton actionListener="#{testeViewBean.selecionarPersonagem}"
                              value="Selecionar Personagem"/>
-            <h:commandButton actionListener="#{testeSessionBean.selecionarPersonagem}"
+            <h:commandButton actionListener="#{testeViewBean.selecionarPersonagem}"
                              value="Selecionar Personagem Forward" action="session2"/>
-            <h:commandButton actionListener="#{testeSessionBean.selecionarPersonagem}"
+            <h:commandButton actionListener="#{testeViewBean.selecionarPersonagem}"
                              value="Selecionar Personagem Redirect" action="session2?faces-redirect=true"/>
-            <h:commandButton action="#{testeSessionBean.logout()}"
+            <h:commandButton action="#{testeViewBean.logout()}"
                              value="LogOut" />
         </h:form>
 

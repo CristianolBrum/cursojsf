@@ -17,13 +17,6 @@ public class TesteRequestBean implements Serializable {
     private List<String> personagens = asList("Kuwabara", "Sensui", "Toguro");
     private List<String> personagemSelecionado = new ArrayList<>();
 
-    @PostConstruct
-    public void init() {
-        System.out.println("Num é que funfa ");
-        personagens = asList("Kuwabara", "Sensui", "Toguro");
-    }
-
-
 
     public void selecionarPersonagem() {
         int index = ThreadLocalRandom.current().nextInt(3);

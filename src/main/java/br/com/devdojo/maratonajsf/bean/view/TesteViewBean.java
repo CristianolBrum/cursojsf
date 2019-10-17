@@ -1,8 +1,8 @@
-package br.com.devdojo.maratonajsf.bean.session;
+package br.com.devdojo.maratonajsf.bean.view;
 
 import javax.annotation.PostConstruct;
-import javax.enterprise.context.SessionScoped;
 import javax.faces.context.FacesContext;
+import javax.faces.view.ViewScoped;
 import javax.inject.Named;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -12,17 +12,17 @@ import java.util.concurrent.ThreadLocalRandom;
 import static java.util.Arrays.asList;
 
 @Named
-@SessionScoped
-public class TesteSessionBean implements Serializable {
+@ViewScoped
+public class TesteViewBean implements Serializable {
     private List<String> personagens ;
     private List<String> personagemSelecionado = new ArrayList<>();
 
 
-@PostConstruct
-public void init(){
-    System.out.println("Num é que funfa ");
-    personagens = asList("Kuwabara","Sensui","Toguro");
-}
+    @PostConstruct
+    public void init(){
+        System.out.println("Entrou no post construct da view Scoped ");
+        personagens = asList("Kuwabara","Sensui","Toguro");
+    }
     public String logout(){
         FacesContext.getCurrentInstance().getExternalContext().invalidateSession();
         return "session?redirect=true";
