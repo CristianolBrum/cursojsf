@@ -8,7 +8,7 @@
     <h:body>
         <h:form>
             <h:outputText value="#{testeApplicationBean.categoriaList}"/><br/>
-            <h:outputText value="#{testeViewBean.personagemSelecionado}"/><br/>
+            <h:outputText value="#{testeRequestBean.personagemSelecionado}"/><br/>
             <h:commandButton actionListener="#{testeViewBean.selecionarPersonagem}"
                              value="Selecionar Personagem"/>
             <h:commandButton actionListener="#{testeViewBean.selecionarPersonagem}"
@@ -16,7 +16,9 @@
             <h:commandButton actionListener="#{testeViewBean.selecionarPersonagem}"
                              value="Selecionar Personagem Redirect" action="session2?faces-redirect=true"/>
             <h:commandButton action="#{testeViewBean.logout()}"
-                             value="LogOut" />
+                             value="LogOut"/>
+            <h:commandButton actionListener="#{testeApplicationBean.mudarLista ()}"
+                             value="Mudar lista Aplication Bean" />
         </h:form>
 
     </h:body>
