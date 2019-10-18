@@ -1,6 +1,7 @@
 package br.com.devdojo.maratonajsf.bean.view;
 
 import br.com.devdojo.maratonajsf.bean.dependent.TesteDependentBean;
+import br.com.devdojo.maratonajsf.bean.session.TesteSessionBean;
 
 import javax.annotation.PostConstruct;
 import javax.faces.context.FacesContext;
@@ -17,13 +18,15 @@ import static java.util.Arrays.asList;
 @Named
 @ViewScoped
 public class TesteViewBean implements Serializable {
-    private List<String> personagens ;
+    private List<String> personagens;
     private List<String> personagemSelecionado = new ArrayList<>();
     private final TesteDependentBean dependentBean;
+    private final TesteSessionBean sessionBean;
 
     @Inject
-    public TesteViewBean(TesteDependentBean dependentBean) {
+    public TesteViewBean(TesteDependentBean dependentBean, TesteSessionBean sessionBean) {
         this.dependentBean = dependentBean;
+        this.sessionBean = sessionBean;
     }
 
     public TesteDependentBean getDependentBean() {
@@ -31,19 +34,24 @@ public class TesteViewBean implements Serializable {
     }
 
     @PostConstruct
-    public void init(){
+    public void init() {
         System.out.println("Entrou no post construct da view Scoped ");
-        personagens = asList("Kuwabara","Sensui","Toguro");
+        personagens = asList("Kuwabara", "Sensui", "Toguro");
     }
-    public String logout(){
+
+    public String logout() {
         FacesContext.getCurrentInstance().getExternalContext().invalidateSession();
         return "session?redirect=true";
     }
-    public void selecionarPersonagem(){
-        int index = ThreadLocalRandom.current().nextInt(3);
-        String personagem = personagens.get(index);
-        personagemSelecionado.add(personagem);
-        dependentBean.getPersonagemSelecionado().add(personagem);
+
+    public void selecionarPersonagem() {
+        System.out.println(sessionBean.getEstudante().getNome());
+        if (sessionBean.getEstudante().getNome().equals("Cristiano")) {
+            int index = ThreadLocalRandom.current().nextInt(3);
+            String personagem = personagens.get(index);
+            personagemSelecionado.add(personagem);
+            dependentBean.getPersonagemSelecionado().add(personagem);
+        }
     }
 
     public List<String> getPersonagens() {
@@ -61,5 +69,9 @@ public class TesteViewBean implements Serializable {
 
     public void setPersonagemSelecionado(List<String> personagemSelecionado) {
         this.personagemSelecionado = personagemSelecionado;
+    }
+
+    public TesteSessionBean getSessionBean() {
+        return sessionBean;
     }
 }

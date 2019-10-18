@@ -1,6 +1,7 @@
 package br.com.devdojo.maratonajsf.bean.application;
 
 import br.com.devdojo.maratonajsf.bean.dependent.TesteDependentBean;
+import br.com.devdojo.maratonajsf.bean.session.TesteSessionBean;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
@@ -18,7 +19,7 @@ public class TesteApplicationBean implements Serializable {
     private final TesteDependentBean dependentBean;
 
     @Inject
-    public TesteApplicationBean(TesteDependentBean dependentBean) {
+    public TesteApplicationBean(TesteDependentBean dependentBean, TesteSessionBean sessionBean) {
         this.dependentBean = dependentBean;
     }
 
