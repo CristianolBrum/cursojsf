@@ -34,7 +34,7 @@ public class TesteConversationBean implements Serializable {
         if(!conversation.isTransient()){
             conversation.end();
         }
-        return "conversation?faces-redirect=true";
+        return "conversation?faces-redirect=true ";
     }
 
     public String logout(){
