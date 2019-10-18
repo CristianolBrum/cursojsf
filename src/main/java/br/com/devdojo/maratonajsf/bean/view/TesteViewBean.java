@@ -1,8 +1,11 @@
 package br.com.devdojo.maratonajsf.bean.view;
 
+import br.com.devdojo.maratonajsf.bean.dependent.TesteDependentBean;
+
 import javax.annotation.PostConstruct;
 import javax.faces.context.FacesContext;
 import javax.faces.view.ViewScoped;
+import javax.inject.Inject;
 import javax.inject.Named;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -16,7 +19,16 @@ import static java.util.Arrays.asList;
 public class TesteViewBean implements Serializable {
     private List<String> personagens ;
     private List<String> personagemSelecionado = new ArrayList<>();
+    private final TesteDependentBean dependentBean;
 
+    @Inject
+    public TesteViewBean(TesteDependentBean dependentBean) {
+        this.dependentBean = dependentBean;
+    }
+
+    public TesteDependentBean getDependentBean() {
+        return dependentBean;
+    }
 
     @PostConstruct
     public void init(){
@@ -31,7 +43,17 @@ public class TesteViewBean implements Serializable {
         int index = ThreadLocalRandom.current().nextInt(3);
         String personagem = personagens.get(index);
         personagemSelecionado.add(personagem);
+        dependentBean.getPersonagemSelecionado().add(personagem);
     }
+
+    public List<String> getPersonagens() {
+        return personagens;
+    }
+
+    public void setPersonagens(List<String> personagens) {
+        this.personagens = personagens;
+    }
+
 
     public List<String> getPersonagemSelecionado() {
         return personagemSelecionado;
