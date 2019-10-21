@@ -4,21 +4,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:o="http://omnifaces.org/ui">
 <h:head>
 </h:head>
 <f:metadata>
     <f:viewParam name="nome" value="#{comunicacaoTeste3Bean.nome}"/>
     <f:viewParam name="sobreNome" value="#{comunicacaoTeste3Bean.sobreNome}"/>
+    <f:viewParam name="data" value="#{comunicacaoTeste3Bean.data}">
+        <f:convertDateTime pattern="dd-MM-yyyy"/>
+    </f:viewParam>
+    <f:viewAction action="#{comunicacaoTeste3Bean.init()}"/>
 </f:metadata>
 <h:body>
-    <h:form>
+    <o:form includeRequestParams="true">
+        <p:messages autoUpdate="true"/>
         <h:panelGrid columns="1">
-            <h:inputText value="#{comunicacaoTeste3Bean.nome}"/><br/>
+            <h:inputText value="#{comunicacaoTeste3Bean.nome}" required="true"
+            requiredMessage="O nome é obrigatorio"/><br/>
+<!--            <f:ajax event="blur"/>-->
             <h:inputText value="#{comunicacaoTeste3Bean.sobreNome}"/><br/>
+            <h:outputLabel value="#{comunicacaoTeste3Bean.data}"/><br/>
             <!--<f:event type="preRenderView" listener="#{comunicacaoTeste3Bean.init()}"/>-->
-            <h:commandButton value="Resultado" action="resultado?faces-redirect=true&amp;includeViewParams=true"/>
+            <h:commandButton value="Resultado" action="#{comunicacaoTeste3Bean.save()}"/>
         </h:panelGrid>
-    </h:form>
+    </o:form>
 </h:body>
 </html>
