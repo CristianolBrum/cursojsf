@@ -6,26 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03351fba-d571-432a-bfe3-991d9b452f8e" name="Default" comment="Injection">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste4Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/comunicacao4.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/classes/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste1Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/classes/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste1Bean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/classes/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste3Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/classes/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste3Bean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/application.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/application.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao3.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao3.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/conversation.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/conversation.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/conversation2.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/conversation2.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/dependent.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/dependent.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/dependent2.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/dependent2.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/view.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/view.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste1Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste1Bean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste3Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste3Bean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste1Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste1Bean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/comunicacao.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/comunicacao.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/comunicacao3.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/comunicacao3.xhtml" afterDir="false" />
+    <list default="true" id="03351fba-d571-432a-bfe3-991d9b452f8e" name="Default" comment="Atributos com f attributes">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -393,7 +375,7 @@
       <workItem from="1570887794836" duration="30181000" />
       <workItem from="1571267997159" duration="1529000" />
       <workItem from="1571273501656" duration="13939000" />
-      <workItem from="1571676463420" duration="5987000" />
+      <workItem from="1571676463420" duration="6254000" />
     </task>
     <task id="LOCAL-00001" summary="Aula 3 flowScoped">
       <created>1571414432584</created>
@@ -423,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571432554082</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Atributos com f attributes">
+      <created>1571682660967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571682660967</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77097000" />
+    <option name="totallyTimeSpent" value="77364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="442" width="1920" height="1053" extended-state="6" />
@@ -479,7 +468,8 @@
     <MESSAGE value="Aula 3 flowScoped builder" />
     <MESSAGE value="Aula 22 dependent scope" />
     <MESSAGE value="Injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Injection" />
+    <MESSAGE value="Atributos com f attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atributos com f attributes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/conversation2.xhtml">
