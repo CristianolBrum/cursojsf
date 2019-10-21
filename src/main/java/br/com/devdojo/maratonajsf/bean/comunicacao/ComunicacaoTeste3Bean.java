@@ -3,28 +3,26 @@ package br.com.devdojo.maratonajsf.bean.comunicacao;
 import org.omnifaces.cdi.Param;
 
 import javax.annotation.PostConstruct;
-import javax.faces.context.FacesContext;
 import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 import java.io.Serializable;
-import java.util.Map;
 
 @Named
 @ViewScoped
-public class ComunicacaoTeste2Bean implements Serializable {
-    @Inject @Param(name = "nome")
+public class ComunicacaoTeste3Bean implements Serializable {
     private String nome;
-    @Inject @Param(name = "sobreNome")
     private String sobreNome;
 
-    @PostConstruct
     public void init(){
-//        Map<String, String> paramsMap = FacesContext.getCurrentInstance().getExternalContext().getRequestParameterMap();
-//        nome = paramsMap.get("nome");
-//        sobreNome = paramsMap.get("sobrenome");
+        System.out.println("Criou comunicacao 3");
         System.out.println(nome);
         System.out.println(sobreNome);
+    }
+
+    public String save(){
+        System.out.println("Salvando");
+        return
     }
 
     public String getNome() {

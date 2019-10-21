@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class LoginFilter implements Filter {
+public class  LoginFilter implements Filter {
 
     @Inject
     private LoginBean loginBean;
@@ -23,7 +23,7 @@ public class LoginFilter implements Filter {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         HttpServletResponse res = (HttpServletResponse) servletResponse;
         String url = req.getRequestURL().toString();
-        if(url.contains("/restricted")&& loginBean.getEstudante() != null){
+        if(url.contains("/restricted")&& loginBean.getEstudante() == null){
             res.sendRedirect(req.getServletContext().getContextPath()+"/login.xhtml");
         }else{
             filterChain.doFilter(servletRequest, servletResponse);
