@@ -16,48 +16,20 @@ public class ComunicacaoTeste3Bean implements Serializable {
     private String data;
 
     public void init(){
-<<<<<<< HEAD
+
             System.out.println("Criou comunicacao 3");
             System.out.println(nome);
             System.out.println(sobreNome);
     }
 
-    public String  save(){
+    public String  save() {
         System.out.println("Salvando");
-        return "resultado?faces-redirect=true&amp;includeViewParams=true";
-=======
+
+
         System.out.println("Criou comunicacao 3");
         System.out.println(nome);
         System.out.println(sobreNome);
->>>>>>> origin/master
+        return "resultado?faces-redirect=true&amp;includeViewParams=true";
     }
 
-    public String save(){
-        System.out.println("Salvando");
-        return
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getSobreNome() {
-        return sobreNome;
-    }
-
-    public void setSobreNome(String sobreNome) {
-        this.sobreNome = sobreNome;
-    }
-
-    public String getData() {
-        return data;
-    }
-
-    public void setData(String data) {
-        this.data = data;
-    }
 }

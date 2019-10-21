@@ -9,11 +9,7 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
     <welcome-file-list>
-<<<<<<< HEAD
-        <welcome-file>comunicacao4.xhtml</welcome-file>
-=======
-        <welcome-file>comunicacao.xhtml</welcome-file>
->>>>>>> origin/master
+        <welcome-file>comunicacao6.xhtml</welcome-file>
     </welcome-file-list>
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
