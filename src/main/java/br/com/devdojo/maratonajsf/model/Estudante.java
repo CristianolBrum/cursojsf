@@ -14,6 +14,7 @@ public class Estudante {
     private double nota2 = 8;
     private double nota3 = 10;
     private Turno turno = Turno.MATUTINO;
+    private String email;
 
     public Estudante() {
     }
@@ -76,5 +77,13 @@ public class Estudante {
 
     public void setNota3(double nota3) {
         this.nota3 = nota3;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

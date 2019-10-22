@@ -7,20 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6545571-b114-4ed6-9060-a30d290144a4" name="Default Changelist" comment="Flash Scoped">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao10.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao11.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao12.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste10Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste11Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste12Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste9Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/util/ApplicationMapUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/validator.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/validator/ValidatorTesteBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/validators/DuplicatedEmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/validators/Validators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/messages_pt.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/comunicacao10.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/comunicacao11.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/comunicacao12.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/comunicacao5.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/comunicacao6.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/comunicacao7.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/comunicacao8.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/validator.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/artifacts/maratona_jsf_war_exploded/WEB-INF/classes/br/com/devdojo/maratonajsf/model/Estudante.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/maratona_jsf_war_exploded/WEB-INF/classes/br/com/devdojo/maratonajsf/model/Estudante.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/artifacts/maratona_jsf_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/maratona_jsf_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/devdojo/maratonajsf/model/Estudante.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/devdojo/maratonajsf/model/Estudante.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/comunicacao.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/comunicacao.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/comunicacao3.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/comunicacao3.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,78 +47,63 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste11Bean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding>
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste12Bean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-              <folding>
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao11.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao12.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+            <state relative-caret-position="60">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/maratona_jsf/view.xhtml">
+        <entry file="file://$PROJECT_DIR$/web/application.xhtml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/web.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/validator.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="240">
+              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/validators/DuplicatedEmailValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+            <state relative-caret-position="160">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="19" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/validators/Validators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/validator/ValidatorTesteBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,14 +142,24 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste8Bean.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste9Bean.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste10Bean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java" />
         <option value="$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao10.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/util/ApplicationMapUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste11Bean.java" />
-        <option value="$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao11.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/comunicacao/ComunicacaoTeste12Bean.java" />
         <option value="$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao12.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/resources/messages_pt.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/web/inicioflow.xhtml" />
+        <option value="$PROJECT_DIR$/web/restricted/iniciosistema.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/validator/ValidatorTesteBean.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/validators/DuplicatedEmailValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/validators/Validators.java" />
+        <option value="$PROJECT_DIR$/web/validator.xhtml" />
       </list>
     </option>
   </component>
@@ -187,87 +192,48 @@
             <path>
               <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
               <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
               <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
               <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="maratona_jsf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
               <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="maratona_jsf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maratonajsf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maratonajsf" type="462c0819:PsiDirectoryNode" />
+              <item name="validators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="maratonajsf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="maratonajsf" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="maratonajsf" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="comunicacao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="maratonajsf" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maratona-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4259e2ed572f3add4fe661d76a74c988245f782a" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,6 +259,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/out/artifacts/maratona_jsf" />
+      <recent name="$PROJECT_DIR$/web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -393,7 +360,7 @@
       <updated>1571684711557</updated>
       <workItem from="1571684712797" duration="19000" />
       <workItem from="1571684747467" duration="55000" />
-      <workItem from="1571684829342" duration="16262000" />
+      <workItem from="1571684829342" duration="19840000" />
     </task>
     <task id="LOCAL-00001" summary="Flash Scoped">
       <created>1571690557359</created>
@@ -406,7 +373,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16336000" />
+    <option name="totallyTimeSpent" value="19914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,7 +388,7 @@
     <frame x="1920" y="442" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49905837" visible="true" weight="0.18643162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905837" visible="true" weight="0.18643162" />
       <window_info id="Structure" order="1" sideWeight="0.50094163" side_tool="true" weight="0.18643162" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -434,7 +401,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839744" weight="0.3299435" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49893162" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893162" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946582" weight="0.3299435" />
@@ -631,25 +598,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/maratona_jsf/view.xhtml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/util/ApplicationMapUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -722,10 +672,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/messages.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/inicioflow.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/maratona_jsf/comunicacao12.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/application.xhtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/restricted/iniciosistema.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/messages_pt.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/maratona_jsf/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/bean/validator/ValidatorTesteBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/maratona_jsf/validator.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/model/Estudante.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
+            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/validators/DuplicatedEmailValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devdojo/maratonajsf/validators/Validators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/validator.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
         </state>
       </provider>
     </entry>
